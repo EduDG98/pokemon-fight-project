@@ -60,7 +60,7 @@ class PokemonPlanta extends Pokemon {
         }else{
             if(pokemon.type === 'Planta'){
                 super.smallAttack(pokemon)
-            }else if (pokemon.type === 'Agua') {
+            }else if (pokemon.type === 'Eléctrico') {
                 super.highAttack(pokemon)
     
             } else {
@@ -108,9 +108,9 @@ class PokemonAgua extends Pokemon {
         if (pokemon.isLive === false){
             console.log('Tu pokemon está muerto...')
         }else{
-            if(pokemon.type === 'Electrico'){
+            if(pokemon.type === 'Agua'){
                 super.smallAttack(pokemon)
-            }else if (pokemon.type === 'Agua') {
+            }else if (pokemon.type === 'Fuego') {
                 super.highAttack(pokemon)
     
             } else {
